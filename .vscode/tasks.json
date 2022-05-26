@@ -9,7 +9,8 @@
             "command": "g++",
             "args": [
                 "*.cpp", 
-                "-I/usr/include/SDL2", 
+                "-IC:\\mingw_dev_lib\\include\\SDL2\\",
+                "-LC:\\mingw_dev_lib\\lib", 
                 "-lSDL2", 
                 "-lSDL2_image"
             ], 

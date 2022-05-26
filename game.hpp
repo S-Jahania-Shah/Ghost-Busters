@@ -1,3 +1,4 @@
+
 #include <SDL.h>
 #include <SDL_image.h>
 #include <stdio.h>
@@ -8,7 +9,7 @@
 
 class Game{
     //Screen dimension constants
-    const int SCREEN_WIDTH = 800;
+    const int SCREEN_WIDTH = 1000;
     const int SCREEN_HEIGHT = 600;
 
     //The window we'll be rendering to
@@ -22,7 +23,6 @@ class Game{
     //global reference to png image sheets
     SDL_Texture* assets=NULL;
     
-
 
 public:
 
